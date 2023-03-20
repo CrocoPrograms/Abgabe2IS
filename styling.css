@@ -15,9 +15,22 @@
 button{
     background-color: #fad1e3 ;
     color: #eb478f;
-    border: 1px;
+    border: 3px solid;
     border-radius: 3px;
     padding: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 15px auto;
 
+}
+
+main{
+    max-width: 960px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center
 }

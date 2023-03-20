@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>HYP1_T1 &ndash; JavaScript Date Object</title>
+    <style> 
+    body{background-color: #ffe6f2;} 
+    </style>
     <meta charset="utf-8">
     <script type = "text/javascript" src ="javascriptdatei.js" ></script>
     <!-- gemachtes TODO: Create your JavaScript file and include it here -->
@@ -13,8 +16,10 @@
         <header style = "background-color: #f075ab;"> 
         <h1> Annas pinke Datenseite </h1> 
     </header>
-    <p><span id="current-day"></span></p>
-    <p><span id="current-time"></span></p>
+    <p><h2> Heutiger Tag </h2></p>
+    <p><h2><span id="current-day"></span></h2></p>
+    <p><h2>Jetzige Uhrzeit</h2></p>
+    <p><h2><span id="current-time"></span></h2></p>
     
     <script>
       const currentDayElement = document.getElementById("current-day");
@@ -25,10 +30,11 @@
         
 <!-- gemachtesTODO: Call functions for current day and current time (from the JS file) here -->
     <main> 
-        <button type = "button" show </button>
+        <h2> <button type = "button" show </button>
         <a href="javascript:alert(timeOnPage())">Verbrachte Zeit</a>
         <p> </p>
         <a href="javascript:;" onclick="refresh()">Neu laden</a>
+        </h2>
     
     
     </main>
