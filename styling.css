@@ -1,0 +1,23 @@
+#current-day {
+    background-color: #f5a3c7;
+    border: 2px solid #8a0f45;
+    padding: 10px;
+    display: inline-block;
+  }
+
+#current-time {
+    background-color: #f5a3c7;
+    border: 2px solid #8a0f45;
+    padding: 10px;
+    display: inline-block;
+}
+
+button{
+    background-color: #fad1e3 ;
+    color: #eb478f;
+    border: 1px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 15px;
+
+}
